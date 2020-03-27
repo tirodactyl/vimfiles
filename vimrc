@@ -14,6 +14,7 @@ runtime! config/basic.vim
 runtime! config/bindings.vim
 runtime! config/gitrebase.vim
 runtime! config/paste.vim
+runtime! config/terminal.vim
 
 
 " ----------------------------------------
