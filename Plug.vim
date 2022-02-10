@@ -35,6 +35,8 @@ call plug#begin('~/.config/nvim/plugged')
   " A command-line fuzzy finder written in Go
   Plug 'junegunn/fzf', { 'do': 'yes \| ./install'  }
   Plug 'junegunn/fzf.vim'
+
+  Plug 'jremmen/vim-ripgrep'
 " }}}
 
 " UI Additions {{{
