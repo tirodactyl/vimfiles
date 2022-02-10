@@ -35,7 +35,7 @@ if has("autocmd")
     autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:&gt;
 
     " Enable spellcheck for markdown files
-    autocmd BufRead,BufNewFile *.md setl spell
+    autocmd BufRead,BufNewFile *.md setl spell wrap linebreak
 
     " Don't syntax highlight markdown because it's often wrong
     autocmd! FileType mkd setlocal syn=off
