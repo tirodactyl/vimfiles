@@ -1,5 +1,5 @@
 " configure go:
-let g:go_fmt_command = "goimports"
+" let g:go_fmt_command = "goimports"
 
 " optional go syntax highlighting options
 let g:go_highlight_extra_types = 1
