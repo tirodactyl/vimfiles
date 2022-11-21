@@ -96,9 +96,9 @@ map <silent> ¬ 5<C-w>>
 " }}}
 
 " Other {{{
-" Copies file location relative to CWD
+" Copies GH file location relative to CWD
 map <leader>Y :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%")<CR>
-" " with line number
+" Copies file location relative to CWD with line number
 map <leader>C :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%").":".line(".")<CR>
 
 " create fold in SCSS
